@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tanks</title>
+  <link rel="shortcut icon" href="img/tank1.ico" type="image/x-icon">
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+</head>
+
+<body>
+  <div id="main">
+    <div id="divMap"></div>
+    <div id="info">
+      <h1>GUIDANCE</h1>
+      Move Up
+      <img src="img/up.png" alt="Arrow Up"><br/> Move Down
+      <img src="img/down.png" alt="Arrow Down"><br/> Move Left
+      <img src="img/left.png" alt="Arrow Left"><br/> Move Right
+      <img src="img/right.png" alt="Arrow Right"><br/>
+      <input type="button" id="map1" value="Map 1">
+      <input type="button" id="map2" value="Map 2">
+      <input type="button" id="map3" value="Map 3">
+    </div>
+  </div>
+  <audio id="startgame" src="sounds/tanchiki.mp3"></audio>
+  <audio id="hit" src="sounds/hit.wav"></audio>
+  <audio id="map" src="sounds/map.wav"></audio>
+  <script type="text/javascript" src="script/audio.js"></script>
+  <script type="text/javascript" src="script/change_map.js"></script>
+  <script type="text/javascript" src="script/map.js"></script>
+  <script type="text/javascript" src="script/tank.js"></script>
+  <script type="text/javascript" src="script/block.js"></script>
+  <script type="text/javascript" src="script/main.js"></script>
+</body>
+
+</html>
